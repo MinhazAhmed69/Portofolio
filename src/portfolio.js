@@ -351,7 +351,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "MinhazAhmed__69", //Replace "twitter" with your twitter username without @
+  userName: "elonmusk", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
