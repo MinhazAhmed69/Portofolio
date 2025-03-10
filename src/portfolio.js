@@ -1,6 +1,15 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
+// Import images properly
+import sahyadriLogo from "./assets/images/12.jpeg";
+import chaitanyaLogo from "./assets/images/123.png";
+import frogImage from "./assets/images/Frog.png";
+import sipImage from "./assets/images/SIP.png";
+import lillyImage from "./assets/images/lilly.png";
+import nitteImage from "./assets/images/nitte.png";
+import hacknightImage from "./assets/images/hacknight.png";
+
 // Splash Screen
 const splashScreen = {
   enabled: true,
@@ -61,7 +70,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Sahyadri College of Engineering and Management",
-      logo: require("./assets/images/12.jpeg"),
+      logo: sahyadriLogo,
       subHeader: "Bachelor of Technology in Computer Science Engineering",
       duration: "September 2023 - September 2027",
       desc: "Took core courses in Computer Science Engineering, covering key areas such as programming, data structures, algorithms, and Japanese language learning.",
@@ -74,7 +83,7 @@ const educationInfo = {
     },
     {
       schoolName: "Sri Chaitanya School and College",
-      logo: require("./assets/images/123.png"),
+      logo: chaitanyaLogo,
       subHeader: "CBSE & State Board",
       duration: "March 2018 - March 2023",
       desc: "Attended Sri Chaitanya School from 8th to 10th grade and later pursued higher education at Sri Chaitanya Junior College, specializing in PCMC (Physics, Chemistry, Mathematics, and Computer Science).",
@@ -89,17 +98,17 @@ const bigProjects = {
   subtitle: "Projects which I feel proud of",
   projects: [
     {
-      image: require("./assets/images/Frog.png"),
+      image: frogImage,
       projectName: "FloodGuardHQ",
       projectDesc: "Developed a website for real-time flood alerts and local detection at SSOSC Srinathon, a national-level hackathon.",
     },
     {
-      image: require("./assets/images/SIP.png"),
+      image: sipImage,
       projectName: "Roaring Rhythm",
       projectDesc: "A rhythm-based game for the visually impaired, selected for Bangalore Ideathon at Nitte and won first place in a class competition.",
     },
     {
-      image: require("./assets/images/lilly.png"),
+      image: lillyImage,
       projectName: "The Lilly Pad",
       projectDesc: "A minimalist food website with a diverse menu, developed as our final SkillLab milestone.",
     },
@@ -107,36 +116,35 @@ const bigProjects = {
   display: true,
 };
 
+// Achievements Section
 const achievementsCards = [
   {
     title: "Ideathon 5.0 - The Hive",
     subtitle:
       "Participated in Ideathon 5.0 at Nitte Meenakshi Institute of Technology as part of 'The Hive' team.",
-    image: require("./assets/images/nitte.png"), // Replace with actual image path
+    image: nitteImage,
     imageAlt: "Ideathon 5.0 Logo",
     footerLink: [
       {
         name: "View Certificate",
-        url: "https://www.linkedin.com/posts/minhazahmed69_nitte-meenakshi-institute-of-technology-i-activity-7242868002151350274-2v_B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1DueoB8d0LhJPwGekycH6_oyvIPchAyzk" // Replace with actual certificate link
-      }
-    ]
+        url: "https://www.linkedin.com/posts/minhazahmed69_nitte-meenakshi-institute-of-technology-i-activity-7242868002151350274-2v_B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1DueoB8d0LhJPwGekycH6_oyvIPchAyzk",
+      },
+    ],
   },
   {
     title: "HackNight - DEVHOST 2024",
     subtitle:
       "Actively contributed to the 20-hour HackNight Hackathon at DEVHOST 2024, showcasing technical skills and problem-solving abilities.",
-    image: require("./assets/images/hacknight.png"), // Replace with actual image path
+    image: hacknightImage,
     imageAlt: "HackNight Logo",
     footerLink: [
       {
         name: "View Certificate",
-        url: "https://www.linkedin.com/posts/minhazahmed69_hacknight-particpation-activity-7265641020380319745-VFTr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1DueoB8d0LhJPwGekycH6_oyvIPchAyzk" // Replace with actual certificate link
-      }
-    ]
-  }
+        url: "https://www.linkedin.com/posts/minhazahmed69_hacknight-particpation-activity-7265641020380319745-VFTr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1DueoB8d0LhJPwGekycH6_oyvIPchAyzk",
+      },
+    ],
+  },
 ];
-
-export { achievementsCards };
 
 // Contact Information
 const contactInfo = {
@@ -155,4 +163,5 @@ export {
   educationInfo,
   bigProjects,
   contactInfo,
+  achievementsCards,
 };
