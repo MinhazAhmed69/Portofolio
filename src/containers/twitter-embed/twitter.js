@@ -1,14 +1,14 @@
-import React, { Suspense, useContext, useEffect } from "react";
+import React, {Suspense, useContext, useEffect} from "react";
 import "./twitter.scss";
 import Loading from "../loading/Loading";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
-import { twitterDetails } from "../../portfolio";
+import {TwitterTimelineEmbed} from "react-twitter-embed";
+import {twitterDetails} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 const renderLoader = () => <Loading />;
 
 export default function Twitter() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
 
   useEffect(() => {
     // Timeout to check if Twitter has loaded
@@ -36,7 +36,7 @@ export default function Twitter() {
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName={twitterDetails.userName}
-            options={{ height: 400, width: window.innerWidth < 768 ? 300 : 500 }}
+            options={{height: 400, width: window.innerWidth < 768 ? 300 : 500}}
             placeholder={renderLoader()}
             borderColor="#fff"
             theme={isDark ? "dark" : "light"}
