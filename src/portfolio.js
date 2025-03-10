@@ -105,7 +105,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Sahyadri College of Engineering and Management",
-      logo: require("./assets/images/12.jpg"),
+      logo: require("./assets/images/12.jpeg"),
       subHeader: "Bachelor of Technology in Computer Science Engineering",
       duration: "September 2023 - September 2027",
       desc: "Took core courses in Computer Science Engineering, covering key areas such as programming, data structures, algorithms, and Japanese language learning.",
