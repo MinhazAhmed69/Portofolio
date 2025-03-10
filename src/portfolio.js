@@ -45,58 +45,61 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "These are my skills, which I am very comfortable with and enjoy working on.",
-skills: [
-  emoji(
-    "⚡ Developing highly interactive Front-End/User Interfaces for web and mobile applications"
-  ),
-  emoji("⚡ Building Progressive Web Applications (PWA) and Single Page Applications (SPA)"),
-  emoji(
-    "⚡ Integrating third-party services such as Firebase and other APIs seamlessly"
-  ),
-  emoji(
-    "⚡ Optimizing performance and enhancing user experience across different platforms"
-  )
+  subTitle:
+    "These are my skills, which I am very comfortable with and enjoy working on.",
+  skills: [
+    emoji(
+      "⚡ Developing highly interactive Front-End/User Interfaces for web and mobile applications"
+    ),
+    emoji(
+      "⚡ Building Progressive Web Applications (PWA) and Single Page Applications (SPA)"
+    ),
+    emoji(
+      "⚡ Integrating third-party services such as Firebase and other APIs seamlessly"
+    ),
+    emoji(
+      "⚡ Optimizing performance and enhancing user experience across different platforms"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  {
-    skillName: "html-5",
-    fontAwesomeClassname: "fab fa-html5"
-  },
-  {
-    skillName: "css3",
-    fontAwesomeClassname: "fab fa-css3-alt"
-  },
-  {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js"
-  },
-  {
-    skillName: "reactjs",
-    fontAwesomeClassname: "fab fa-react"
-  },
-  {
-    skillName: "sass",
-    fontAwesomeClassname: "fab fa-sass"
-  },
-  {
-    skillName: "nodejs",
-    fontAwesomeClassname: "fab fa-node"
-  },
-  {
-    skillName: "firebase",
-    fontAwesomeClassname: "fas fa-fire"
-  },
-  {
-    skillName: "npm",
-    fontAwesomeClassname: "fab fa-npm"
-  }
-],
-display: true // Set false to hide this section, defaults to true
+  softwareSkills: [
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 // Education Section
 
@@ -123,9 +126,7 @@ const educationInfo = {
       subHeader: "CBSE & State Board",
       duration: "March 2018 - March 2023",
       desc: "I attended Sri Chaitanya School from 8th to 10th grade, where I developed a strong foundation in academics and extracurricular activities. Later, I pursued my higher education at Sri Chaitanya Junior College, focusing on the State Board curriculum with a specialization in PCMC (Physics, Chemistry, Mathematics, and Computer Science). This journey helped me build analytical and problem-solving skills essential for my career.",
-      descBullets: [
-        "8th to 2nd PUC with a specialization in PCMC"
-      ]
+      descBullets: ["8th to 2nd PUC with a specialization in PCMC"]
     }
   ]
 };
@@ -201,16 +202,18 @@ const bigProjects = {
     {
       image: require("./assets/images/Frog.png"),
       projectName: "FloodGuardHQ",
-      projectDesc: "I participated in SSOSC - Srinivas Students Open Source Community’s Srinathon, a national-level hackathon, where I developed a website called FloodGuard. This platform aims to raise flood awareness by providing real-time flood alerts and local detection features."
+      projectDesc:
+        "I participated in SSOSC - Srinivas Students Open Source Community’s Srinathon, a national-level hackathon, where I developed a website called FloodGuard. This platform aims to raise flood awareness by providing real-time flood alerts and local detection features."
     },
     {
       image: require("./assets/images/SIP.png"),
       projectName: "Roaring Rythm",
-      projectDesc: "“It’s a game called Roaring Rhythm, designed for the visually impaired. The game provides a demo beat, and players must use the X and Z keys to match the rhythm. It features multiple tracks that increase in speed and difficulty over time. This innovative idea was selected for the Bangalore Ideathon at Nitte and also secured first place in our class competition.”"
+      projectDesc:
+        "“It’s a game called Roaring Rhythm, designed for the visually impaired. The game provides a demo beat, and players must use the X and Z keys to match the rhythm. It features multiple tracks that increase in speed and difficulty over time. This innovative idea was selected for the Bangalore Ideathon at Nitte and also secured first place in our class competition.”"
     }
   ],
   display: true // Set false to hide this section, defaults to true
-}
+};
 // Achievement Section
 // Include certificates, talks etc
 
@@ -293,7 +296,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false// Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -374,6 +377,3 @@ export {
   isHireable,
   resumeSection
 };
-
-
-
